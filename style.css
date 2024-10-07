@@ -1,0 +1,77 @@
+.container{
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.input-todo{
+    height: 60px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    gap: 30px;
+
+    
+}
+.input{
+    width:300px;
+}
+
+.list{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    justify-content: start;
+    margin: 20px;
+}
+.line{
+    height: 1px;
+    width: 90%;
+    background-color: rgb(171, 162, 162);
+
+
+}
+li{
+  list-style-type: decimal;  
+}
+.item-li{
+    height:50px ;
+    width: 90%;
+    display:inline-flex;
+    justify-content: start;
+    gap: 10px;
+
+}
+.todo-item{
+    display: inline-flex;
+    justify-content: start;
+    gap: 10px;
+    width: 100%;
+    margin: 10px;
+}
+.items{
+ 
+}
+.sno{
+    width: 10%;
+}
+.desc{
+    width: 55%;
+}
+.done{
+  width: 15%;
+}
+.delete{
+    width: 15%;
+  }
+
+.completed{
+    text-decoration: line-through;
+    
+}
+.deleted{
+    display: none;
+}
